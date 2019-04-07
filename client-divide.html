@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>League of Legends Accounts</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script type="text/javascript" charset="utf-8">
+        //获取数据，也可以通过外部js引入，数据格式一样就行
+        var data = [{
+            "id":"쁘띠고덕",
+            "level":40,
+            "point":155,
+            "elite":29390,
+            "hero":["Akali","Amumu"],
+            "skin":{"Kayle_7":"Riot Kayle"},
+            "last":"白银 IV",
+            "now":"无段位",
+            "play":"2018/12/8",
+            "price":"@100"
+        },{
+            "id":"쁘띠고덕",
+            "level":41,
+            "point":155,
+            "elite":29390,
+            "hero":["Akali","Amumu"],
+            "skin":{"Kayle_7":"Riot Kayle"},
+            "last":"白银 IV",
+            "now":"无段位",
+            "play":"2018/12/8",
+            "price":"@100"
+        },{
+            "id":"쁘띠고덕",
+            "level":42,
+            "point":155,
+            "elite":29390,
+            "hero":["Akali","Amumu"],
+            "skin":{"Kayle_7":"Riot Kayle"},
+            "last":"白银 IV",
+            "now":"无段位",
+            "play":"2018/12/8",
+            "price":"@100"
+        },{
+            "id":"쁘띠고덕",
+            "level":42,
+            "point":155,
+            "elite":29390,
+            "hero":["Akali","Amumu"],
+            "skin":{"Kayle_7":"Riot Kayle"},
+            "last":"白银 IV",
+            "now":"无段位",
+            "play":"2018/12/8",
+            "price":"@100"
+        },{
+            "id":"쁘띠고덕",
+            "level":42,
+            "point":155,
+            "elite":29390,
+            "hero":["Akali","Amumu"],
+            "skin":{"Kayle_7":"Riot Kayle"},
+            "last":"白银 IV",
+            "now":"无段位",
+            "play":"2018/12/8",
+            "price":"@100"
+        },{
+            "id":"쁘띠고덕",
+            "level":42,
+            "point":155,
+            "elite":29390,
+            "hero":["Akali","Amumu"],
+            "skin":{"Kayle_7":"Riot Kayle"},
+            "last":"白银 IV",
+            "now":"无段位",
+            "play":"2018/12/8",
+            "price":"@100"
+        },{
+            "id":"쁘띠고덕",
+            "level":42,
+            "point":155,
+            "elite":29390,
+            "hero":["Akali","Amumu"],
+            "skin":{"Kayle_7":"Riot Kayle"},
+            "last":"白银 IV",
+            "now":"无段位",
+            "play":"2018/12/8",
+            "price":"@100"
+        },{
+            "id":"쁘띠고덕",
+            "level":42,
+            "point":155,
+            "elite":29390,
+            "hero":["Akali","Amumu"],
+            "skin":{"Kayle_7":"Riot Kayle"},
+            "last":"白银 IV",
+            "now":"无段位",
+            "play":"2018/12/8",
+            "price":"@100"
+        },{
+            "id":"쁘띠고덕",
+            "level":42,
+            "point":155,
+            "elite":29390,
+            "hero":["Akali","Amumu"],
+            "skin":{"Kayle_7":"Riot Kayle"},
+            "last":"白银 IV",
+            "now":"无段位",
+            "play":"2018/12/8",
+            "price":"@100"
+        }];
+    </script>
+</head>
+<body>
+<script type="text/javascript">
+$(function(){$('.showDetailsModal').attr('data-toggle','tooltip').attr('data-placement','bottom').attr('title','Click for details'),$('[data-toggle="tooltip"]').tooltip();var $dialog=$('#modal');var $modalBody=$dialog.find('.modal-body');var $modalTitle=$dialog.find('.modal-title');$dialog.find('button.close').click(function(e){e.preventDefault(),$dialog.modal('hide');});var $imgLarge=$('.image-large');$('.showDetailsModal').on('click',function(e){e.preventDefault();var $el=$(this),listClazz,dialogTitle;$el.hasClass('showChamps')?(listClazz='.champs-list',dialogTitle='Champions'):$el.hasClass('showSkins')?(listClazz='.skins-list',dialogTitle='Skins'):$el.hasClass('showRunes')?(listClazz='.runes-list',dialogTitle='Runes'):$el.hasClass('showIcons')&&(listClazz='.icons-list',dialogTitle='Summoner Icons');var $listEl=$el.parent().parent().find(listClazz);$modalTitle.text(dialogTitle),$modalBody.html($listEl.html());var $imageBox;return $dialog.on('shown.bs.modal',function(e){$dialog.find('.has-tooltip').tooltip(),$dialog.find('img.lazy').each(function(){var $img=$(this);if($img.length){var imgUrl=$img.data('src');imgUrl&&($img.attr('src',imgUrl),$img.removeClass('lazy'),$img.removeAttr('data-src'));}}),$imageBox=$dialog.find('.image-box'),$imageBox.on('mouseenter',function(e){$imgLarge.attr('src',$(this).attr('src')),$imgLarge.show();}).on('mouseleave',function(e){$imgLarge.hide();}).on('mousemove',function(e){var left=e.pageX<window.innerWidth/2?e.pageX+15:e.pageX-$imgLarge.width()-15;$imgLarge.css({top:e.pageY*0.45,left:left});});}),$dialog.on('hidden.bs.modal',function(e){$listEl.html($modalBody.html()),$dialog.off('shown.bs.modal'),$dialog.off('hidden.bs.modal'),$imageBox.off('mouseenter mouseleave mousemove'),$imageBox=void 0,$dialog.modal('dispose');}),$dialog.modal(),!1;});});</script>
+    <img class="image-large" style="position: absolute; width: 280px; border-radius: 5px; z-index: 99999; display: none;">
+    <div class="modal fade" id="modal" tabindex="-1" role="dialog" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title"></h5>
+            <button type="button" class="close" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body" style="min-height: 450px;"></div>
+        </div>
+      </div>
+    </div>
+    <div class="container mt-4">
+        <h4>英雄联盟账户</h4>
+        <p>提示：点击英雄，皮肤，以获取更多详细信息。</p>
+        <table class="table table-hover">
+          <thead class="thead-dark">
+            <tr>
+                <th class="align-middle text-center">序号</th>
+                <th class="align-middle text-center">ID</th>
+                <th class="align-middle text-center">等级</th>
+                <th class="align-middle text-center">点卷</th>
+                <th class="align-middle text-center">精粹</th>
+                <th class="align-middle text-center">英雄</th>
+                <th class="align-middle text-center">皮肤</th>
+                <th class="align-middle text-center">上赛季</th>
+                <th class="align-middle text-center">本赛季</th>
+                <th class="align-middle text-center">最后游<br/>戏时间</th>
+                <th class="align-middle text-center">价格</th>
+                <th style="display:none;">ChampList</th>
+                <th style="display:none;">SkinList</th>
+            </tr>
+          </thead>
+          <tbody id="tb"></tbody>
+        </table>
+    </div>
+    <div id="page"></div>
+        
+<script>
+function show(start,end){
+    var all = ''
+    data.forEach(function(currentValue, index){
+        if(index<start || index >end){
+            return ;
+        }
+        var text = '<tr><td class="text-center">'+(index+1)+'</td><td class="text-center">'+currentValue.id+'</td><td class="text-center">'+currentValue.level+'</td><td class="text-center">'+currentValue.point+'</td><td class="text-center">'+currentValue.elite+'</td><td class="text-center"><a class="showDetailsModal showChamps" href="#">'+currentValue.hero.length+'</a></td><td class="text-center"><a class="showDetailsModal showSkins" href="#">'+Object.keys(currentValue.skin).length+'</a></td><td class="text-center">'+currentValue.last+'</td><td class="text-center">'+currentValue.now+'</td><td class="text-center">'+currentValue.play+'</td><td class="text-center">'+currentValue.price+'</td><td style="display:none;"><div class="champs-list details-list"><div class="container-fluid"><div class="row">';
+        var hero='';
+        var data1 = currentValue.hero;
+        data1.forEach(function(currentValue1, index1){
+            hero=hero+'<div class="col-4 col-md-3 col-lg-2 pl-2 pr-2 mb-3"><div class="card"><img class="card-img-top lazy" src="data:image/png;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" data-src="http://ddragon.leagueoflegends.com/cdn/9.6.1/img/champion/'+currentValue1+'.png"><div class="card-body p-2 has-tooltip" title="Akali" data-placement="top"><p class="mb-2 text-truncate">'+currentValue1+'</p></div></div></div>';
+        });
+        text = text + hero + '</div></div></div></td><td style="display:none;"><div class="skins-list details-list"><div class="container-fluid"><div class="row">';
+        var data2 = currentValue.skin;
+        var skin = '';
+        Object.keys(data2).forEach(function(currentValue2, index2){
+            skin = skin + '<div class="col-4 col-md-3 col-lg-2 pl-2 pr-2 mb-3 d-flex"><div class="card flex-grow-1"><img class="card-img-top lazy image-box" src="data:image/png;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" data-src="http://ddragon.leagueoflegends.com/cdn/img/champion/loading/'+currentValue2+'.jpg"><div class="card-body p-2"><p class="mb-0">'+data2.currentValue2+'</p></div></div></div>';
+        });
+        text = text + skin + '</div></div></div></td><td style="display:none;"><div class="runes-list details-list"><table class="table table-bordered table-hover"><thead class="thead-light"><tr><th class="align-middle text-center">Description</th><th class="align-middle text-center">Tier</th><th class="align-middle text-center">Quantity</th></tr></thead><tbody></tbody></table></div></td><td style="display:none;"><div class="icons-list details-list"><div class="container-fluid"><div class="row"><div class="col-4 col-md-3 col-lg-2 pl-2 pr-2 mb-3"><div class="card"><img class="card-img-top lazy" src="data:image/png;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" data-src="http://ddragon.leagueoflegends.com/cdn/9.6.1/img/profileicon/712.png"></div></div><div class="col-4 col-md-3 col-lg-2 pl-2 pr-2 mb-3"><div class="card"><img class="card-img-top lazy" src="data:image/png;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" data-src="http://ddragon.leagueoflegends.com/cdn/9.6.1/img/profileicon/713.png"></div></div><div class="col-4 col-md-3 col-lg-2 pl-2 pr-2 mb-3"><div class="card"><img class="card-img-top lazy" src="data:image/png;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" data-src="http://ddragon.leagueoflegends.com/cdn/9.6.1/img/profileicon/774.png"></div></div><div class="col-4 col-md-3 col-lg-2 pl-2 pr-2 mb-3"><div class="card"><img class="card-img-top lazy" src="data:image/png;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" data-src="http://ddragon.leagueoflegends.com/cdn/9.6.1/img/profileicon/904.png"></div></div><div class="col-4 col-md-3 col-lg-2 pl-2 pr-2 mb-3"><div class="card"><img class="card-img-top lazy" src="data:image/png;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" data-src="http://ddragon.leagueoflegends.com/cdn/9.6.1/img/profileicon/1109.png"></div></div><div class="col-4 col-md-3 col-lg-2 pl-2 pr-2 mb-3"><div class="card"><img class="card-img-top lazy" src="data:image/png;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" data-src="http://ddragon.leagueoflegends.com/cdn/9.6.1/img/profileicon/1123.png"></div></div><div class="col-4 col-md-3 col-lg-2 pl-2 pr-2 mb-3"><div class="card"><img class="card-img-top lazy" src="data:image/png;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" data-src="http://ddragon.leagueoflegends.com/cdn/9.6.1/img/profileicon/1301.png"></div></div><div class="col-4 col-md-3 col-lg-2 pl-2 pr-2 mb-3"><div class="card"><img class="card-img-top lazy" src="data:image/png;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" data-src="http://ddragon.leagueoflegends.com/cdn/9.6.1/img/profileicon/2095.png"></div></div><div class="col-4 col-md-3 col-lg-2 pl-2 pr-2 mb-3"><div class="card"><img class="card-img-top lazy" src="data:image/png;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" data-src="http://ddragon.leagueoflegends.com/cdn/9.6.1/img/profileicon/3006.png"></div></div><div class="col-4 col-md-3 col-lg-2 pl-2 pr-2 mb-3"><div class="card"><img class="card-img-top lazy" src="data:image/png;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" data-src="http://ddragon.leagueoflegends.com/cdn/9.6.1/img/profileicon/3015.png"></div></div><div class="col-4 col-md-3 col-lg-2 pl-2 pr-2 mb-3"><div class="card"><img class="card-img-top lazy" src="data:image/png;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" data-src="http://ddragon.leagueoflegends.com/cdn/9.6.1/img/profileicon/3193.png"></div></div><div class="col-4 col-md-3 col-lg-2 pl-2 pr-2 mb-3"><div class="card"><img class="card-img-top lazy" src="data:image/png;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" data-src="http://ddragon.leagueoflegends.com/cdn/9.6.1/img/profileicon/3195.png"></div></div><div class="col-4 col-md-3 col-lg-2 pl-2 pr-2 mb-3"><div class="card"><img class="card-img-top lazy" src="data:image/png;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" data-src="http://ddragon.leagueoflegends.com/cdn/9.6.1/img/profileicon/3414.png"></div></div><div class="col-4 col-md-3 col-lg-2 pl-2 pr-2 mb-3"><div class="card"><img class="card-img-top lazy" src="data:image/png;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" data-src="http://ddragon.leagueoflegends.com/cdn/9.6.1/img/profileicon/3807.png"></div></div></div></div></div></td>';
+        all = all + text;
+    });
+    document.getElementById("tb").innerHTML=all;
+}
+function showpage(num){
+    var every = 5;//每页数量改
+    var text='共'+data.length+'条记录，每页'+every+'条，可分'+(parseInt(data.length/every)+1)+"页，现在是第"+num+'页，跳转到<input type="number" id="inputnum" placeholder="回车跳转" onkeypress="if(event.keyCode==13){inputnum()}" /><button onclick="inputnum()">跳转</button><br/>';
+    if(num>1){
+        text = text + '<button onclick="showpage('+(num-1)+')">上一页</button>';
+    }
+    if(num<parseInt(data.length/every)+1){
+        text = text + '<button onclick="showpage('+(num+1)+')">下一页</button>';
+    }
+    document.getElementById("page").innerHTML = text;
+    show((num-1)*every,(num)*every-1);
+}
+function inputnum(){
+    var num = document.getElementById('inputnum').value;
+    showpage(num);
+}
+showpage(1);
+
+</script>
+</body>
+</html>
